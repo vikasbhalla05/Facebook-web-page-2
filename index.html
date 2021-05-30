@@ -14,14 +14,59 @@
         Meet new People - Across the Globe
     </div>
     <div id="div2">
+        <h2>Create an Account</h2>
+        <h3>It's quick and easy</h3>
         <form action="/">
-            <div id="form">
-            <input type="text" placeholder="Email or phone number">
-            <input type="password" placeholder="Password">
-            <input type="Submit" value="LogIn" id="login"><br>
-            <a href="#">Forgot password?</a>
-            <hr>
-            <input type="button" value="New Account" id="new">
+            <div class="name_form">
+                <input type="text" name="Name" placeholder="First Name">
+                <input type="text" name="Name" placeholder="Surname">
+                <input type="email number" name="Email number" placeholder="Email or Mobile Number">
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <div class="birthday">
+                <label for="birthday">Birthday</label><br>
+                <select name="Date" id="birth_date">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <select name="Month" id="birth_date">
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sept">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+                <select name="Year" id="birth_date">
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                </select>
+            </div>
+            <div id="gender">
+                <label for="gender">Gender</label><br>
+                <input type="radio" name="Male" id="male" >
+                <label for="male">Male</label>
+                <input type="radio" name="Female" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="Others" id="others">
+                <label for="others">Others</label>
             </div>
         </form>
     </div>
