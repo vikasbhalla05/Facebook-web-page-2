@@ -16,7 +16,7 @@
     <div id="div2">
         <h2>Create an Account</h2>
         <h3>It's quick and easy</h3>
-        <form action="/">
+        <form action="/" id="form">
             <div class="name_form">
                 <input type="text" name="Name" placeholder="First Name">
                 <input type="text" name="Name" placeholder="Surname">
@@ -24,7 +24,7 @@
                 <input type="password" name="password" placeholder="Password">
             </div>
             <div class="birthday">
-                <label for="birthday">Birthday</label><br>
+                <label for="birthday">Birthday:</label>
                 <select name="Date" id="birth_date">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -60,14 +60,13 @@
                 </select>
             </div>
             <div id="gender">
-                <label for="gender">Gender</label><br>
-                <input type="radio" name="Male" id="male" >
-                <label for="male">Male</label>
-                <input type="radio" name="Female" id="female">
-                <label for="female">Female</label>
-                <input type="radio" name="Others" id="others">
-                <label for="others">Others</label>
+                <legend name="Gender" >Gender
+                    <label for="male">Male</label><input type="radio" name="Male" id="male" >
+                    <label for="female">Female</label><input type="radio" name="Female" id="female">
+                    <label for="others">Others</label><input type="radio" name="Others" id="others">
+                </legend>
             </div>
+            <input type="button" value="Sign Up" name="signup" id="signup">
         </form>
     </div>
 </main>
