@@ -34,7 +34,10 @@ h1{
     border-radius: 7px;
     box-shadow: rgba(73, 72, 70, 0.26) 2px 2px 5px;
 }
-input{
+input[type="text"],
+input[type="email number"],
+input[type="password"],
+input[type="button"]{
     padding: 7px;
     margin: 5px;
     border: rgba(77, 74, 70, 0.404) solid 1px;
@@ -64,6 +67,7 @@ input#signup{
     background-color: rgb(72, 72, 255);
     align-self: center;
     height: 15%;
+    cursor: pointer;
 }
 footer{
     height: fit-content;
